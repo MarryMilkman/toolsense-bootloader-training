@@ -1,0 +1,142 @@
+[
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data-delta": 3, 
+            ".text-delta": 108, 
+            ".bss": 20, 
+            ".data": 3, 
+            ".bss-delta": 20, 
+            ".text": 108
+        }
+    }, 
+    {
+        "module": "[lib]\\c.a", 
+        "size": {
+            ".data-delta": 2548, 
+            ".text-delta": 17300, 
+            ".bss": 127, 
+            ".data": 2548, 
+            ".bss-delta": 127, 
+            ".text": 17300
+        }
+    }, 
+    {
+        "module": "[lib]\\gcc.a", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 848, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 848
+        }
+    }, 
+    {
+        "module": "[lib]\\misc", 
+        "size": {
+            ".data-delta": 16, 
+            ".text-delta": 252, 
+            ".bss": 28, 
+            ".data": 16, 
+            ".bss-delta": 28, 
+            ".text": 252
+        }
+    }, 
+    {
+        "module": "bootloader.o", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 587, 
+            ".bss": 696, 
+            ".data": 4, 
+            ".bss-delta": 696, 
+            ".text": 587
+        }
+    }, 
+    {
+        "module": "flashiap-driver\\FlashIAPBlockDevice.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 528, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 528
+        }
+    }, 
+    {
+        "module": "mbed-os\\drivers", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 1908, 
+            ".bss": 120, 
+            ".data": 4, 
+            ".bss-delta": 120, 
+            ".text": 1908
+        }
+    }, 
+    {
+        "module": "mbed-os\\features", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 25041, 
+            ".bss": 300, 
+            ".data": 0, 
+            ".bss-delta": 300, 
+            ".text": 25041
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 1515, 
+            ".bss": 68, 
+            ".data": 4, 
+            ".bss-delta": 68, 
+            ".text": 1515
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform", 
+        "size": {
+            ".data-delta": 276, 
+            ".text-delta": 3157, 
+            ".bss": 49, 
+            ".data": 276, 
+            ".bss-delta": 49, 
+            ".text": 3157
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets", 
+        "size": {
+            ".data-delta": 5, 
+            ".text-delta": 13842, 
+            ".bss": 704, 
+            ".data": 5, 
+            ".bss-delta": 704, 
+            ".text": 13842
+        }
+    }, 
+    {
+        "module": "sd-driver\\SDBlockDevice.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 3804, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 3804
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 4972, 
+            "total_flash_delta": 71750, 
+            "static_ram_delta": 4972, 
+            "total_flash": 71750
+        }
+    }
+]

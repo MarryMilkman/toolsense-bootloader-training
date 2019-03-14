@@ -1,0 +1,3 @@
+BUILD\UBLOX_C030_N211\GCC_ARM\bootloader\mbed-os\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F437xG\TARGET_UBLOX_C030\onboard_modem_api.o: \
+ bootloader\mbed-os\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F437xG\TARGET_UBLOX_C030\onboard_modem_api.c \
+ BUILD\UBLOX_C030_N211\GCC_ARM\mbed_config.h
