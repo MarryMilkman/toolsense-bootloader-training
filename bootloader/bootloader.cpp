@@ -8,12 +8,12 @@
 #include "mbed.h"
 
 #define FS_MOUNT_PATH "fs"
-#define FS_UPDATE_FILE_PATH "" 
+#define FS_UPDATE_FILE_PATH "/" FS_MOUNT_PATH "/" TS_UPDATE_FILE_NAME
 
 #define SD_MOUNT_PATH "sd"
-#define SD_UPDATE_FILE_PATH ""
+#define SD_UPDATE_FILE_PATH "/" SD_MOUNT_PATH "/" TS_UPDATE_FILE_NAME
 
-FlashIAPBlockDevice flashiap_bd(0, 0);
+FlashIAPBlockDevice flashiap_bd(TS_FLASH_BD_START, TS_FLASH_BD_SIZE);
 LittleFileSystem flashiap_fs(FS_MOUNT_PATH, &flashiap_bd);
 
 SDBlockDevice sd_bd(SDMOSI, SDMISO, SDSCK, SDCS);
