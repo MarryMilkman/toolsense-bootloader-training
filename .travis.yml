@@ -3,7 +3,7 @@ python: 2.7
 dist: trusty
 
 after_success:
-  - echo "<---------------Build success--------------->\n"
+  - echo "<--------------Build success-------------->\n"
   - ls -l BUILD\UBLOX_C030_N211\GCC_ARM
 
 after_failure:
