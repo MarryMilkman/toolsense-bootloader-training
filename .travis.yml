@@ -28,6 +28,7 @@ install:
   - arm-none-eabi-gcc --version
   - pip install mbed-cli
   - mbed new .
+  - mbed cache on
   - mbed update
 
 
