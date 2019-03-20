@@ -13,5 +13,12 @@ mbed-os/features/nvstore/*
 mbed-os/features/TESTS/*
 mbed-os/features/unsupported/*
 
+mbed-os/componets/802.15.4_RF/*
+mbed-os/componets/TARGET_PSA/*
+mbed-os/componets/wifi/*
 
+mbed-os/UNITTESTS/*
 
+mbed-os/TEST_APPS/*
+
+mbed-os/docs/*
