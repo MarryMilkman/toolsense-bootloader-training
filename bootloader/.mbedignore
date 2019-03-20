@@ -22,3 +22,16 @@ mbed-os/UNITTESTS/*
 mbed-os/TEST_APPS/*
 
 mbed-os/docs/*
+
+
+mbed-os/targets/TARGET_A*
+mbed-os/targets/TARGET_C*
+mbed-os/targets/TARGET_F*
+mbed-os/targets/TARGET_G*
+mbed-os/targets/TARGET_M*
+mbed-os/targets/TARGET_N*
+mbed-os/targets/TARGET_O*
+mbed-os/targets/TARGET_R*
+
+mbed-os/targets/TARGET_T*
+mbed-os/targets/TARGET_W*
